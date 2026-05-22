@@ -4,7 +4,6 @@ services:
     env: docker
     region: ohio
     rootDir: backend
-    dockerfilePath: backend/Dockerfile
     healthCheckPath: /health
     autoDeploy: true
     disk:
